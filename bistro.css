@@ -1,0 +1,92 @@
+body { font-family:Verdana, Arial, sans-serif;
+       background-color: #EAEAEA;
+	   margin: 0;
+}
+#wrapper {  
+           max-width: 1280px;
+           color: #98fb98;
+		   background-color: #98fb98;
+           width: 80%;
+		   margin: auto;
+} 
+header { font-family: Georgia, "Times New Roman", serif;
+         color: #0000FF; 
+		background-color: #98fb98; 
+		background-image: url(heart.jpeg);
+            width: 100%
+		background-repeat: no-repeat;
+		margin-top: 0;
+		padding-bottom: 1em;
+		height: auto 100%;
+}
+form { background-color: #EAEAEA; 
+       font-family: Arial, sans-serif; 
+       width: 350px; padding: 10px; }
+label { float: left; clear: left; display: block; 
+        width: 100px; padding-right: 10px;
+        margin-top: 10px; text-align: right;
+color: #0000FF }
+input { display: block; margin-top: 20px; }
+textarea { display: block; margin-top: 20px; }
+input[type="submit"] { margin-left: 110px; }
+
+
+header h1 { padding-left: 120px;
+            color: #0000FF;
+          padding-top: 40px;
+		  margin: 0; 	  
+ }
+header span { font-style: italic;
+			  font-weight: bold;
+			  font-size: 95%;
+			  color: #0000FF;
+              padding-left: 15em;
+			  margin-top: -0.5em;
+}
+nav {  background-color: #0000FF;; 
+	   letter-spacing: 0.1em;
+	   font-weight: bold;
+	   text-align: right; 
+	   padding-right: 2em;
+	   position: relative;
+} 
+nav ul { list-style-type: none; 
+        margin: 0;
+}
+nav ul ul { position: absolute; background-color: #98fb98; 
+            padding: 0; text-align: left; display: none; 
+}
+nav ul ul li { border: 1px solid #00005D; 
+               display: block; 
+               width: 8em;
+               padding-left: 1em; 
+               margin-left: 0; 
+}
+nav li:hover ul { display: block; }
+nav li { padding: 0.5em;
+      display: inline-block;
+}
+nav a { text-decoration: none; 
+       display: block;
+}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #D3DBEB;}
+main { background-color: #ffffff;
+           color: #000000;
+		   padding: 10px 20px;
+	       overflow: auto; 
+		   min-height: 400px;
+} 
+
+h2 { color: #869dc7; 
+     font-family: arial, sans-serif;
+	 margin: 5px;
+}
+
+
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+		 clear: both;
+}
